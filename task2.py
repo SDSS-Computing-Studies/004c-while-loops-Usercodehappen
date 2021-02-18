@@ -21,4 +21,4 @@ while username != "admin" or password != "12345":
     if username != "admin" or password != "12345":
          print("Across denied")
          elif username == "admin" and password == "12345":
-             print(Access granted)
+             print("Access granted")
