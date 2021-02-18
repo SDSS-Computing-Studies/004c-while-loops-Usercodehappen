@@ -17,3 +17,13 @@ outputs:
 Access granted
 Access denied
 """
+while username != "admin" or password != "12345":
+    username = (input("Enter your username")).strip()
+    password = (input("Enter your username")).strip()
+    count = count + 1
+    if username != "admin" or password != "12345":
+        print("Access denied")
+    if count ==3:
+        break
+    elif username == "admin" and password == "12345":
+        print("Access granted")
